@@ -3,7 +3,7 @@ public class GPA_Calculating {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // 이수 학점을 사용자가 입력한다.
+        // 이수 학점을 사용자가 입력한다...
         System.out.print("Java 과목 이수 학점을 입력하세요: ");
         double java = scanner.nextDouble();
 
