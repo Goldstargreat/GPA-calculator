@@ -16,7 +16,7 @@ public class GPA_Calculating {
 
         // 사용자로부터 각 과목의 성적 입력받기
         System.out.print("Java 과목의 성적을 입력하세요. : ");
-        String javaGrade = scanner.next();  // 문  자열  로 입력받기
+        String javaGrade = scanner.next();  // 문자열 로 입력받기
 
         System.out.print("Mobile 과목의 등급을 입력하세요. : ");
         String mobileGrade = scanner.next();
