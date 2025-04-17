@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class GPA_Calculating {
     public static void main(String[] args) {
+        //Scanner 클래스를 생성하여 사용자로부터 입력 받는다.
         Scanner scanner = new Scanner(System.in);
 
         // 이수 학점을 사용자가 입력한다...
@@ -33,7 +34,9 @@ public class GPA_Calculating {
         avg = Math.round(avg * 100.0) / 100.0;
 
         System.out.println("평균 학점: " + avg);
+        scanner.close();
     }
+
 
     // 등급(String)을 점수(double)로 변환하는 메소드를 사용한다.
     public static double getScore(String grade) {
