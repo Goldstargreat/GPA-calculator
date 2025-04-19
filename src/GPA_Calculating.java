@@ -38,7 +38,7 @@ public class GPA_Calculating {
     }
 
 
-    // 등급(String)을 점수(double)로 변환하는 메소드를 사용한다.
+    // 등급(String)을 점수(double)로 변환하는 메소드를 사용한다..
     public static double getScore(String grade) {
         switch (grade) {
             case "A": return 4.5;
